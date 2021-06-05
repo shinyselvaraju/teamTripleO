@@ -53,7 +53,7 @@
   }
 }
 
-@media only screen and (min-width: 1024) and (max-width: 1366){
+@media only screen and (min-width: 1024){
   .landing-heading{
     font-weight: bolder;
     font-size: 7rem;
@@ -3314,7 +3314,7 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 5, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */
   .header-area .main-header {
-    padding-top: 16px;
+    padding-top: 35px;
     padding-bottom: 21px;
   }
 }
@@ -3322,7 +3322,7 @@ hr {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 5, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */
   .header-area .main-header {
-    padding-top: 16px;
+    padding-top: 35px;
     padding-bottom: 21px;
   }
 }
@@ -3330,7 +3330,7 @@ hr {
 @media (max-width: 575px) {
   /* line 5, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */
   .header-area .main-header {
-    padding-top: 16px;
+    padding-top: 35px;
     padding-bottom: 21px;
   }
 }

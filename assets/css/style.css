@@ -38,13 +38,21 @@
 /* Landing page ending */
 @media only screen and (min-width: 1200px) and (max-width: 1600px)
 {
-  .landing-heading{
+  .landing-title{
     font-weight: bolder;
-    font-size: 7rem;
+    font-size: 8rem;
     position: relative;
     color: white;
-    left: 160px;
-    top: 110px;
+    left: 350px;
+    top:85px;
+  }
+  .landing-heading{
+    font-weight: bold;
+    font-size: 0rem;
+    position: relative;
+    color: white;
+    left: 400px;
+    top: 70px;
   }
   .landing-button{
     position: relative;
@@ -53,8 +61,8 @@
   }
 }
 
-@media only screen and (min-width: 1024){
-  .landing-heading{
+@media (min-width: 1024){
+  .landing-title{
     font-weight: bolder;
     font-size: 7rem;
     position: relative;
@@ -71,7 +79,7 @@
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .landing-heading{
+  .landing-title{
     font-weight: bolder;
     font-size: 7rem;
     position: relative;
@@ -87,7 +95,7 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .landing-heading{
+  .landing-title{
     color: white;
     text-align: center;
     font-size: 10rem;
@@ -105,7 +113,7 @@
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .landing-heading{
+  .landing-title{
     color: white;
     text-align: center;
     font-size: 10rem;
@@ -124,10 +132,10 @@
 
 
 @media (max-width: 575px) {
-  .landing-heading{
+  .landing-title{
     color: white;
     text-align: center;
-    font-size: 4rem;
+    font-size: 5rem;
   }
   .landing-bg{
     background: rgba(0,0,0,0.5);
@@ -160,18 +168,109 @@
 
 /* Contact details */
 
-.contact-new-1{
-  width : 30%;
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px){
+
+  .contact-new-1{
+    width : 60px;
+  }
+
+  .contact-new-2{
+    width: 60px;
+  }
+
+}
+@media only screen and (min-width: 1024){
+  .contact-new-1{
+    width : 60px;
+  }
+
+  .contact-new-2{
+    width: 60px;
+  }
+  .contact-new-3{
+    width : 150%;
+    padding-right: 100px;
+  }
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  .contact-new-1{
+    width : 30%;
+  }
+
+  .contact-new-2{
+    width: 30%;
+  }
+
+  .contact-new-3{
+    width : 150%;
+    padding-right: 50px;
+  }
+
+
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  .contact-new-1{
+    width : 30%;
+  }
+
+  .contact-new-2{
+    width: 30%;
+  }
+
+  .contact-new-3{
+    width : 150%;
+    padding-right: 50px;
+  }
+
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+  .contact-new-1{
+    width : 30%;
+  }
+
+  .contact-new-2{
+    width: 30%;
+  }
+  .contact-new-3{
+    width : 50%;
+    padding-right: 50px;
+  }
+
 }
 
-.contact-new-2{
-  width: 30%;
+@media (max-width: 700px){
+  .contact-new-1{
+    width : 30%;
+  }
+
+  .contact-new-2{
+    width: 30%;
+  }
+  .contact-new-3{
+    width : 140%;
+    padding-right: 50px;
+  }
+
 }
 
-.contact-new-3{
-  width : 150%;
-  padding-right: 100px;
-}
+/* @media (max-width: 720px) {
+  .contact-new-1{
+    width : 120px;
+  }
+
+  .contact-new-2{
+    width: 120px;
+  }
+  .contact-new-3{
+    width : 180px;
+    padding-right: 50px;
+  }
+
+
+} */
 
 .about-class{
   width: 70%;
@@ -252,7 +351,7 @@
 
 /* line 66, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_color.scss */
 .theme-bg {
-  background: blue;
+  background: #1891AC;
 }
 
 /* line 69, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_color.scss */
@@ -278,32 +377,32 @@
 
 /* line 84, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_color.scss */
 .theme-color {
-  color: blue;
+  color: #1891AC;
 }
 
 /* line 50, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_variables.scss */
 .boxed-btn {
   background: #fff;
-  color: blue !important;
+  color: #1891AC !important;
   display: inline-block;
   padding: 18px 44px;
   font-family: "Oswald", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid blue;
+  border: 1px solid #1891AC;
   letter-spacing: 3px;
   text-align: center;
-  color: blue;
+  color: #1891AC;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 /* line 67, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_variables.scss */
 .boxed-btn:hover {
-  background: blue;
+  background: #1891AC;
   color: #fff !important;
-  border: 1px solid blue;
+  border: 1px solid #1891AC;
 }
 
 /* line 72, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_variables.scss */
@@ -690,7 +789,7 @@ hr {
 
 /* line 244, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
 .btn {
-  background: blue;
+  background: #1891AC;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   padding: 27px 44px;
@@ -723,7 +822,7 @@ hr {
   top: 0;
   width: 101%;
   height: 101%;
-  background: blue;
+  background: #1891AC;
   z-index: 1;
   border-radius: 5px;
   transition: transform 0.5s;
@@ -787,7 +886,7 @@ hr {
 
 /* line 329, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
 .submit-btn2 {
-  background: blue;
+  background: #1891AC;
   width: 100%;
   height: 60px;
   padding: 10px 20px;
@@ -842,7 +941,7 @@ hr {
   top: 0;
   width: 101%;
   height: 101%;
-  background: blue;
+  background: #1891AC;
   z-index: -1;
   transition: transform 0.5s;
   transition-timing-function: ease;
@@ -867,7 +966,7 @@ hr {
 /* scrollUp */
 /* line 402, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
 #scrollUp, #back-top {
-  background: blue;
+  background: #1891AC;
   height: 50px;
   width: 50px;
   right: 31px;
@@ -2640,7 +2739,7 @@ hr {
   position: relative;
   border-style: solid;
   border-width: 1px;
-  border-top-color: blue;
+  border-top-color: #1891AC;
   border-bottom-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -3242,7 +3341,7 @@ hr {
 
 /* line 66, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_color.scss */
 .theme-bg {
-  background: blue;
+  background: #1891AC;
 }
 
 /* line 69, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_color.scss */
@@ -3268,7 +3367,7 @@ hr {
 
 /* line 84, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_color.scss */
 .theme-color {
-  color: blue;
+  color: #1891AC;
 }
 
 /* line 5, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */
@@ -3497,7 +3596,7 @@ hr {
 
 /* line 169, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */
 .mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
-  background-color: blue !important;
+  background-color: #1891AC !important;
 }
 
 /* line 173, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */
@@ -3508,7 +3607,7 @@ hr {
 /* line 176, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */
 .mobile_menu .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: blue;
+  color: #1891AC ;
 }
 
 /* line 180, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */
@@ -4019,7 +4118,7 @@ hr {
 .pricing-area .properties .about-icon {
   width: 80px;
   height: 80px;
-  background: blue;
+  background: #1891AC;
   border-radius: 50px;
   display: inline-block;
   position: relative;
@@ -4039,7 +4138,7 @@ hr {
 
 /* line 22, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_pricing.scss */
 .pricing-area .properties__caption P {
-  color: blue;
+  color: #1891AC;
   font-size: 30px;
   font-weight: 500;
   text-transform: uppercase;
@@ -4160,7 +4259,7 @@ hr {
 /* line 30, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_video-area.scss */
 .video-icon a {
   background: #fff;
-  color: blue;
+  color: #1891AC;
   width: 110px;
   height: 110px;
   display: inline-block;
@@ -4246,7 +4345,7 @@ hr {
   bottom: -2px;
   right: -2px;
   border-radius: inherit;
-  border: 1px solid blue;
+  border: 1px solid #1891AC;
   -webkit-animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
   animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
 }
@@ -4640,7 +4739,7 @@ hr {
   font-size: 20px;
   width: 0;
   height: 0;
-  border-bottom: 100px solid blue;
+  border-bottom: 100px solid #1891AC;
   border-left: 100px solid transparent;
   text-align: center;
   display: inline-block;
@@ -4808,12 +4907,12 @@ hr {
 
 /* line 24, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_footer.scss */
 .footer-area .footer-bottom .footer-copy-right p i {
-  color: blue;
+  color: #1891AC;
 }
 
 /* line 27, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_footer.scss */
 .footer-area .footer-bottom .footer-copy-right p a {
-  color: blue;
+  color: #1891AC;
 }
 
 /* line 29, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_footer.scss */
@@ -4824,7 +4923,7 @@ hr {
 /* line 41, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_footer.scss */
 .footer-area .footer-social a {
   background: rgba(255, 0, 0, 0.1);
-  color: blue;
+  color:#1891AC;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -4838,7 +4937,7 @@ hr {
 /* line 53, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_footer.scss */
 .footer-area .footer-social a:hover {
   color: #fff;
-  background: blue;
+  background: #1891AC;
 }
 
 /* line 57, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_footer.scss */
@@ -4896,7 +4995,7 @@ hr {
 
 /* line 36, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_blog_page.scss */
 .home-blog-area .home-blog-single .blog-img-cap .blog-cap h3 a:hover {
-  color: blue;
+  color: #1891AC;
   text-decoration: underline;
 }
 
@@ -5403,7 +5502,7 @@ hr {
 
 /* line 761, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_blog_page.scss */
 .blog_right_sidebar .search_widget .input-group button {
-  background: blue;
+  background: #1891AC;
   border-left: 0;
   border: 1px solid #f0e9ff;
   padding: 4px 15px;
@@ -6584,13 +6683,13 @@ hr {
 /* line 47, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_extend.scss */
 .header-area .menu-wrapper .main-menu ul ul.submenu, .header-sticky.sticky-bar {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#950101+0,630102+50,3d0302+100 */
-  background: blue;
+  background: #1891AC  ;
   /* Old browsers */
-  background: -moz-linear-gradient(top, blue 0%, #1768ac 50%, #022E57 100%);
+  background: -moz-linear-gradient(top, black 0%, black 50%, black 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, blue 0%, #1768ac 50%, #022E57 100%);
+  background: -webkit-linear-gradient(top, black 0%, black 50%, black 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, blue 0%, #1768ac 50%, #022E57 100%);
+  background: linear-gradient(to bottom, black 0%, black 50%, black 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1768ac', endColorstr='#022E57',GradientType=0 );
   /* IE6-9 */
